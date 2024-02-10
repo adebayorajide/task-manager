@@ -1,0 +1,210 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    width:90%;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin: 1.5em auto;
+    padding: 0 1rem;
+}
+
+.form {
+    /* background-color: #ebdfd7; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+aside {
+    background-color: #000;
+    width: 200px;
+    height: 100vh;
+    font-size: 0.7rem;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+aside ul li {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+aside ul li .link {
+   text-decoration: none;
+   color: #fff;
+
+}
+
+aside h1 {
+    margin-top: 1.8rem;
+    text-align: center;
+}
+
+div img {
+    width: 12px;
+    padding-right: 1rem;
+}
+
+/* div span {
+    margin-bottom: 1rem;
+} */
+
+.dashboard {
+    background-color: #ebdfd7;
+    width:80vw;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+/* .dashboardProject {
+        background-color: #ebdfd7;
+        width:75vw;
+    height: 100%;
+    padding: 0 1rem;
+} */
+
+.profile {
+    background-color: #ebdfd7;
+    width: 80vw;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header .edit_btn {
+    background-color: transparent;
+    border: 1px dashed grey;
+}
+
+.profile div {
+    margin-bottom: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.header button {
+    margin-top: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor:  pointer;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.hero div {
+    background-color: transparent;
+    width: 150px;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, .5);
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.hero img {
+    background-color: #d398e7;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.add_task {
+    background-color: #000;
+    color: #fff;
+    width: 500px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    width: 400px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0.5rem;
+    /* border: none; */
+    border-radius:5px;
+}
+
+form .btn {
+    background-color: #000;
+    width: 420px;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding:  1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.form .btn:hover {
+    opacity: .8;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.upload button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 0.625rem;
+}
+
+.bio {
+    width: 550px;
+    height: 150px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    padding: 1rem;
+}
+
+.radio {
+    display: flex;
+}
+
+.projects {
+    padding: 0 1rem;
+}
+
+.criticalTask {
+    width: 400px;
+    height: 120px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 0.95rem;
+    text-align: center;
+    padding: 1rem;
+}
